@@ -20,7 +20,7 @@ ul {
     list-style-type: none;
     overflow: auto;
     background-color: #d8c3a5;
-    padding-left: 300px;
+    padding-left: 350px;
 }
 
 li a {
@@ -33,3 +33,10 @@ li a {
     font-family: 'Nunito', sans-serif;
 }
 
+p{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    float: left;
+    padding-right: 600px;
+    color: #8e8d8a;
+}

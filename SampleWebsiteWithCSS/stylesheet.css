@@ -9,7 +9,7 @@ h1{
     font-family: 'Nunito', sans-serif;
 }
 
-img{
+nav img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -33,10 +33,33 @@ li a {
     font-family: 'Nunito', sans-serif;
 }
 
-p{
+.p-div{
     font-size: 30px;
     font-family: 'Nunito', sans-serif;
     float: left;
-    padding-right: 600px;
-    color: #8e8d8a;
+    color: #e85a4f;
+    background-color: #d8c3a5;
+    width: 600px;
+    padding: 20px;
 }
+
+.image-div {
+    display: block;
+    float: right;
+    margin-left:15px;
+}
+
+footer {
+    display: block;
+    color: #e98074;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #d8c3a5;
+    padding: 20px;
+    width: 1370px;
+}
+

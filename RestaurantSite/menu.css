@@ -185,6 +185,10 @@ h1{
     color: orange;
 }
 
+h1:hover{
+    font-style: italic;
+}
+
 p{
     padding-top: 70px;
     padding-left: 110px;

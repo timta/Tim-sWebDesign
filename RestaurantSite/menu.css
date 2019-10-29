@@ -1,0 +1,208 @@
+body{
+    background-image: url("Images/beige.jpg");
+    margin: 0;
+}
+
+.div-nav{
+    background-image: url("Images/Orange.png");
+    height: auto;
+
+}
+
+.div-nav a:hover{
+    text-decoration: underline;
+}
+
+.div-nav a{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 12px;
+    line-height: 80px;
+}
+
+.img-logo {
+    margin-left: 150px;
+    margin-right: 20px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-image: url(Images/logo.png);
+    background-repeat: no-repeat;
+}
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.slogan{
+    background-image: url("Images/Slogan.png");
+    background-repeat: no-repeat;
+    height: 173px;
+    margin-top: 100px;
+    margin-left: 150px;
+
+}
+
+.slogan p{
+    padding-top: 180px;
+    padding-left: 10px;
+    font-family: Arial, serif;
+}
+
+.side-ad{
+    background-image: url("Images/menu ad.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-left: 750px;
+    margin-top: -200px;
+}
+
+.chicken{
+    background-image: url("Menu Items/chicken.m.png");
+    background-repeat: no-repeat;
+    height: 162px;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.chicken h1{
+    padding-top: 170px;
+    padding-left: 70px;
+}
+
+.tenders{
+    background-image: url("Menu Items/tenders.m.png");
+    background-repeat: no-repeat;
+    height: 162px;
+    margin-left: 500px;
+    margin-top: -170px;
+}
+
+.tenders h1{
+    padding-top: 170px;
+    padding-left: 100px;
+}
+
+.seafood{
+    background-image: url("Menu Items/seafood.m.png");
+    background-repeat: no-repeat;
+    height: 162px;
+    margin-left: 820px;
+    margin-top: -170px;
+}
+
+.seafood h1{
+    padding-top: 170px;
+    padding-left: 130px;
+}
+
+.sanwiches{
+    background-image: url("Menu Items/sandwich.m.jpg");
+    background-repeat: no-repeat;
+    height: 162px;
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+.sanwiches h1{
+    padding-top: 170px;
+    padding-left: 40px;
+}
+
+.family{
+    background-image: url("Menu Items/family.m.png");
+    background-repeat: no-repeat;
+    height: 162px;
+    margin-left: 510px;
+    margin-top: -190px;
+}
+
+.family h1{
+    padding-top: 185px;
+    padding-left: 55px;
+}
+
+.signatures{
+    background-image: url("Menu Items/sides.m.png");
+    background-repeat: no-repeat;
+    height: 162px;
+    margin-left: 850px;
+    margin-top: -180px;
+}
+
+.signatures h1{
+    padding-top: 185px;
+    padding-left: 100px;
+}
+
+.sauces {
+    background-image: url("Menu Items/sauces.m.png");
+    background-repeat: no-repeat;
+    height: 162px;
+    margin-left: 200px;
+    margin-top: 90px;
+}
+
+.sauces h1{
+    padding-top: 185px;
+    padding-left: 35px;
+}
+
+.dessert{
+    background-image: url("Menu Items/desserts.m.png");
+    background-repeat: no-repeat;
+    height: 162px;
+    margin-left: 500px;
+    margin-top: -170px;
+}
+
+.dessert h1{
+    padding-top: 175px;
+    padding-left: 105px;
+}
+
+.drink{
+    background-image: url("Menu Items/beverages.m.png");
+    background-repeat: no-repeat;
+    height: 152px;
+    margin-left: 870px;
+    margin-top: -170px;
+}
+
+.drink h1{
+    padding-top: 165px;
+    padding-left: 95px;
+}
+
+h1{
+    font-family:'Oswald', sans-serif;
+    font-size: 20px;
+    color: orange;
+}
+
+p{
+    padding-top: 70px;
+    padding-left: 110px;
+    font-family: Arial, serif;
+    font-size: 15px;
+}
+
+.footer {
+    background-image: url("Images/Orange.png");
+}
+
+.footer p{
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color:white;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-left: 50px;
+}

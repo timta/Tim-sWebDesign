@@ -1,0 +1,122 @@
+body{
+    background-image: url("Images/beige.jpg");
+    margin: 0;
+
+}
+
+.div-nav{
+    background-image: url("Images/Orange.png");
+    height: auto;
+}
+
+.div-nav a:hover{
+    text-decoration: underline;
+}
+
+.div-nav a{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 12px;
+    line-height: 80px;
+
+}
+
+.homepage{
+    background-image: url("Images/ad2.jpg");
+    height: 750px;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+}
+
+.img-logo {
+    margin-left: 150px;
+    margin-right: 20px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-image: url(Images/logo.png);
+    background-repeat: no-repeat;
+}
+
+img{
+    margin-left: auto;
+    margin-right: 250px;
+    display: block;
+    width: 65%;
+    margin-top: 50px;
+}
+
+.footer {
+    background-image: url("Images/Orange.png");
+    margin-top: 300px;
+}
+
+.footer p{
+     text-align: center;
+     font-family: 'Oswald', sans-serif;
+     font-size: 12px;
+     color:white;
+     line-height: 40px;
+ }
+
+.advert{
+    background-image: url("Images/img-bonafide.png");
+    background-repeat: no-repeat;
+    height: 160px;
+    margin-top: 50px;
+    margin-left: 170px;
+    float: left;
+}
+
+.advert p:hover{
+    color: maroon;
+    font-style: italic;
+}
+
+.advert2 p:hover{
+    color: maroon;
+    font-style: italic;
+}
+
+.advert3 p:hover{
+    color: maroon;
+    font-style: italic;
+}
+
+.advert p{
+    font-family: Arial, serif;
+    font-size: 12px;
+    padding-top: 162px;
+}
+
+.advert2{
+    background-image: url("Images/img-sig-sides.png");
+    background-repeat: no-repeat;
+    height: 160px;
+    margin-top: 50px;
+    margin-left: 200px;
+    float: left;
+}
+
+.advert2 p{
+    font-family: Arial, serif;
+    font-size: 12px;
+    padding-top: 162px;
+}
+
+.advert3{
+    background-image: url("Images/img-seafood.png");
+    background-repeat: no-repeat;
+    height: 160px;
+    margin-top: 50px;
+    margin-left: 230px;
+    float: left;
+}
+
+.advert3 p{
+    font-family: Arial, serif;
+    font-size: 12px;
+    padding-top: 162px;
+}

@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("Images/beige.jpg");
+
+}
+
+.div-nav{
+    background-image: url("Images/Orange.png");
+    height: auto;
+}
+
+.div-nav a:hover{
+    text-decoration: underline;
+}
+
+.div-nav a{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 12px;
+    line-height: 80px;
+
+}
+
+.img-logo {
+    margin-left: 150px;
+    margin-right: 20px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-image: url(Images/logo.png);
+    background-repeat: no-repeat;
+}
+
+img{
+    margin-left: auto;
+    margin-right: 250px;
+    display: block;
+    width: 65%;
+    margin-top: 50px;
+}
+
+.footer {
+    background-image: url("Images/Orange.png");
+    margin-top: 50px;
+}
+
+.footer h1{
+    font-family: Arial , serif;
+    color: white;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.footer h2{
+    font-family: Arial , serif;
+    color: white;
+    font-size: 17px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer p{
+    font-family: Arial , serif;
+    color: white;
+    font-size: 12px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.advert-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+
+.advert{
+    background-image: url("Images/img-bonafide.png");
+    background-repeat: no-repeat;
+    height: 160px;
+    float: left;
+    display: flex;
+    flex-flow: row;
+    margin: 50px;
+}
+
+.advert p:hover{
+    color: maroon;
+    font-style: italic;
+}
+
+.advert2 p:hover{
+    color: maroon;
+    font-style: italic;
+}
+
+.advert3 p:hover{
+    color: maroon;
+    font-style: italic;
+}
+
+.advert p{
+    font-family: Arial, serif;
+    font-size: 12px;
+    padding-top: 162px;
+}
+
+.advert2{
+    background-image: url("Images/img-sig-sides.png");
+    background-repeat: no-repeat;
+    height: 160px;
+    float: left;
+    display: flex;
+    flex-flow: row;
+    margin: 50px;
+}
+
+.advert2 p{
+    font-family: Arial, serif;
+    font-size: 12px;
+    padding-top: 162px;
+}
+
+.advert3{
+    background-image: url("Images/img-seafood.png");
+    background-repeat: no-repeat;
+    height: 160px;
+    float: left;
+    display: flex;
+    flex-flow: row;
+    margin: 50px;
+}
+
+.advert3 p{
+    font-family: Arial, serif;
+    font-size: 12px;
+    padding-top: 162px;
+}
+
+.main-banner{
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-banner .imgban{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 500ms;
+}
+
+.main-banner #imgban3{
+    background-image: url("Images/ad-carousel1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-banner #imgban2{
+    background-image: url("Images/ad-carousel4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-banner #imgban1{
+    background-image: url("Images/ad-carousel2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.imgbanbtn {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 180px;
+    z-index: 2000;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.imgbanbtn:hover {
+    opacity: 0.9;
+}
+
+.imgbanbtn-next{
+    right: 5px;
+    background-image: url("Images/arrow-right-orange.png");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-banner .imgban-box h2{
+    font-family: Arial , serif;
+    font-size: 60px;
+    color: #fff;
+}
+
+.main-banner .imgban-box p{
+    font-family: Arial , serif;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 6px;
+}
+
+.main-banner #imgban3 .imgban-box{
+    padding-top: 220px;
+    padding-left: 100px;
+}
+
+.main-banner #imgban2 .imgban-box{
+    padding-top: 220px;
+    padding-right: 200px;
+    float: right;
+    text-align: right;
+}
+.main-banner #imgban1 .imgban-box {
+    padding-top: 70px;
+    padding-left: 100px;
+}
